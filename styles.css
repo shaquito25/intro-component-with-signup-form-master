@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+ --Red: hsl(0, 100%, 74%); 
+ --Green: hsl(154, 59%, 51%);
+ --Blue: hsl(248, 32%, 49%);
+ --DarkBlue: hsl(249, 10%, 26%); 
+ --GrayishBlue: hsl(246, 25%, 77%);
+ --FontSize: 16px;
+ --Weights: 400, 500, 600, 700;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: var(--Red);
+    background-repeat: no-repeat;
+    font-size: var(--FontSize);
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.0em;
+    font-weight: 400;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    color: white;
+    max-width: 25vw;
+}
+
+.container-paragraph{
+    color: white;
+    margin-top: 15px;
+    max-width: 40vw;
+}
+
+.form-header-container{
+    border-radius: 10px;
+    background-color: var(--Blue);
+    color: white;
+    padding: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.span-free{
+    color: white;
+}
+
+.span-price{
+    color: var(--GrayishBlue);
+}
+
+.form-container{
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-container div{
+    padding: 8px;
+}
+
+.form-container input{
+    min-width: 35vw;
+    min-height: 8vh;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-weight: 500;
+    border-color: var(--Blue);
+}
+
+.submit-container input{
+    background-color: var(--Green);
+    color: white;
+}
+
+.span-container{
+    text-align: center;
+    font-size: 13px;
+}
+
+.span-terms{
+    color: var(--Red);
+    font-weight: 700;
+}
+
+/*Responsive*/
+
+@media(max-width:385px){
+    body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: var(--Red);
+    background-repeat: no-repeat;
+    font-size: var(--FontSize);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.0em;
+    font-weight: 400;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    color: white;
+    max-width: 100vw;
+    padding: 10px;
+}
+
+.container-paragraph{
+    color: white;
+    margin-top: 15px;
+    max-width: 100vw;
+    text-align: center;
+    font-size: 1em;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header-container{
+    border-radius: 10px;
+    background-color: var(--Blue);
+    color: white;
+    padding: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    min-height: 15vh;
+    max-width: 70vw;
+}
+
+.span-free{
+    color: white;
+}
+
+.span-price{
+    color: var(--GrayishBlue);
+}
+
+.form-container{
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-container div{
+    padding: 8px;
+}
+
+.form-container input{
+    min-width: 80vw;
+    min-height: 8vh;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-weight: 500;
+    border-color: var(--Blue);
+}
+
+.submit-container input{
+    background-color: var(--Green);
+    color: white;
+}
+
+.span-container{
+    text-align: center;
+    font-size: 13px;
+}
+
+.span-terms{
+    color: var(--Red);
+    font-weight: 700;
+}
+}
