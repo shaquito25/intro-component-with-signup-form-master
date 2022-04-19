@@ -110,7 +110,7 @@ p{
 
 /*Responsive*/
 
-@media(max-width:385px){
+@media(max-width:885px){
     body{
     align-items: center;
     display: flex;
